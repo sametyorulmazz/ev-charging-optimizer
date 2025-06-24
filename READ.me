@@ -1,1 +1,10 @@
-This project aims to direct electric vehicle users in Istanbul to the most suitable charging stations. The most suitable matches are made with a genetic algorithm by taking into account the location of the users, the location of the stations, their capacity and occupancy. The route duration and distance are obtained via the TomTom Routing API. Each user is directed to a station with the appropriate capacity in the shortest possible time. At the end of the project, the matching results are both shown on the map and recorded in log files. The codes are run via main.py, and all necessary auxiliary functions are located in the src folder. User and station data are kept in the data folder, and outputs and analyses are kept in the logs folder. In order to run the project, the necessary libraries must first be installed with requirements.txt, and then the TomTom API key must be added to the .env file. When the program is run, the most suitable station for each user is automatically determined and the results are transferred visually to the final_assignment_map.html file. The project is structured in a way that anyone with basic Python knowledge can understand.
+This project aims to direct electric vehicle users in Istanbul to the most suitable charging stations.
+The matching is done using a genetic algorithm, considering user locations, station coordinates, capacity, and occupancy status.
+Route duration and distance are retrieved using the TomTom Routing API.
+Each user is assigned to a station that is reachable in the shortest possible time and has available capacity.
+At the end of the process, assignment results are both visualized on a map and saved to log files.
+The main execution starts from the main.py file, while all helper functions are located in the src folder.
+User and station data are stored under the data folder, and outputs and performance results are placed under logs.
+To run the project, required libraries should be installed via requirements.txt, and the TomTom API key should be added to a .env file.
+When the program is run, the optimal station for each user is calculated automatically, and the final results are displayed in final_assignment_map.html.
+The project is structured in a simple way that can be understood by anyone with basic Python knowledge.
